@@ -4,15 +4,17 @@
   @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@400;700&display=swap');
   html,body { 
     height:100%;
+    width: 100%;
   }
   ::selection {
   color: rgb(168, 168, 168);
   background: rgb(89, 0, 255)0, 160, 0;
   }
   .background {
-    background-image: linear-gradient(to right bottom, rgb(0, 106, 255) 0%, rgb(19, 19, 19) 50%);
-    height: 100vh;
-    background-size: 100vh;
+    background-image: radial-gradient(circle at top left, rgb(0, 52, 148), rgb(0, 0, 0));
+    height: 100%;
+    width: 100%;
+    background-size: 100%;
   }
   .header {
     font-family: Ubuntu;
@@ -30,7 +32,7 @@
   }
 </style>
   
-<html class="background" style="height: 100vh; width: 100vw;">
+<html class="background">
   <div>
     <h1 class="header">
         Test Header
@@ -39,14 +41,6 @@
       Woah there, it looks like you have found my page root!
       <br>
       In the meantime check out my projects!
-      <br>
-      <br>
-      <A href="/ONLCHTCLINR/">Turbocord</A>
-      <A href="/ONLCHTCLINR/clog/">Turbocord Changelog</A>
-      <br>
-      Turbocord is a basic recreation of Discord in Turbowarp.
-      <br>
-      Note: Work in progress, it is mostly in a broken state currently.
     </body>
   </div>
 </html>
